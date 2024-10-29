@@ -1,2 +1,2 @@
-# chowdhury3
-this is the third host for the chowdhury website 
+# chowdhury
+this is the first host for the chowdhury website

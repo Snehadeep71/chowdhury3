@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chowdhury-Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="logo"><img src="images/chowdhury-logo.jpeg"
+                        alt="image_not_available"><span>Chowdhury Travels</span></a>
+
+                <!-- Hamburger Menu Icon (for mobile) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <!-- Navbar Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="about.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                    <li><a href="destination.html"><i class="fa fa-plane"></i> Destinations</a></li>
+                    <li><a href="gallery.html"><i class="fa fa-images"></i> Gallery</a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <li><a href="blog.html"><i class="fa fa-pencil-alt"></i> Blog</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Date & Pricing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Multiple Packages</a></li>
+                            <li><a href="#">Multiple Day - Recurring</a></li>
+                            <li><a href="#">Multiple Date - One Time</a></li>
+                            <li><a href="#">One Day - Recurring</a></li>
+                            <li><a href="#">One Day - One Time</a></li>
+                            <li><a href="#">Variable Pricing</a></li>
+                            <li><a href="#">Fixed Price / Person</a></li>
+                            <li><a href="#">Room Based Pricing</a></li>
+                            <li><a href="#">No Room Based Pricing</a></li>
+                            <li><a href="#">Referral (link to external website)</a></li>
+                        </ul>
+                    </li> -->
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- slider -->
+    <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="overlay"></div>
+            <!-- <div class="slide active">
+                <iframe id="video" width="100%" height="100%"
+                    src="https://www.youtube.com/embed/90raA41jJHA?autoplay=1&mute=1&loop=1&playlist=90raA41jJHA&controls=0&showinfo=0&rel=0"
+                    allowfullscreen></iframe>
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern, Lucern, Zurich, Zermatt, Matterhorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div> -->
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/welcome-page.png" alt="Slide 2">
+                <div class="slidecontent">
+                    <h2 class="animated-heading middle">Welcome to Chowdhury Travels</h2>
+                    <p class="animated-paragraph middle">Your Passport to Unforgettable Adventures!</p>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/kedarnath.jpg" alt="Slide 2">
+                <div class="slidecontent middle">
+                    <h2 class="animated-heading ">Pilgrimage Destinations</h2>
+                    <h3 class="animated-heading ">Kedarnath, Badrinath,Gangotri</h3>
+                    <p class="animated-paragraph ">Spiritual Peaks Await</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/nepal2.jpeg" alt="Slide 2">
+                <div class="slidecontent middle">
+                    <h2 class="animated-heading ">Adventure</h2>
+                    <h3 class="animated-heading ">10 Days in Nepal, Chitwan and Pokhra</h3>
+                    <p class="animated-paragraph ">Nepal is a diverse tourist destination known for its stunning
+                        landscapes,Chitwan National Park, a
+                        UNESCO World Heritage Site and Pokhra is known as the gateway to the Annapurna region,</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/slide3+.jpeg" alt="Slide 3">
+                <div class="slidecontent middle">
+                    <h2 class="animated-heading">Special</h2>
+                    <h3 class="animated-heading">13 Days in Kerala with Kanyakumari</h3>
+                    <p class="animated-paragraph">Kerala,Famous for its lush landscapes, serene backwaters and
+                        Kanyakumari on the other hand
+                        Located at the southern tip of India, known for stunning sunsets and beaches.</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/slide4+.jpeg" alt="Slide 4">
+                <div class="slidecontent middle">
+                    <h2 class="animated-heading">Serene</h2>
+                    <h3 class="animated-heading">7 Days in Arunachal Pradesh</h3>
+                    <p class="animated-paragraph">Discover the majestic beauty of Arunachal Pradesh, a land of stunning
+                        landscapes, vibrant
+                        cultures, and rich biodiversity</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/g3.jpeg" alt="Slide 4">
+                <div class="slidecontent middle">
+                    <h2 class="animated-heading">Heritage</h2>
+                    <h3 class="animated-heading">7 Days in Switzerland</h3>
+                    <p class="animated-paragraph">Explore North India’s treasures: Marvel at the Taj Mahal’s timeless
+                        beauty, uncover the majestic
+                        Agra Fort's rich history, and delve into captivating stories of love and valor. Discover vibrant
+                        markets, taste local delicacies, and experience the cultural richness of this enchanting region.
+                    </p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="overlay"></div>
+                <img src="images/g3.jpeg" alt="Slide 4">
+                <div class="slidecontent middle">
+                    <h2 class="animated-heading">Special</h2>
+                    <h3 class="animated-heading">7 Days in Switzerland</h3>
+                    <p class="animated-paragraph">Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="prev" class="prev">❮</button>
+    <button id="next" class="next">❯</button>
+
+    <div class="dots-container">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    </div>
+
+    <!-----------section 3 html starts here----------->
+    <section class="sec-03">
+        <div class="sec-03boxes">
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/flight-t.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>500+ Destinations</h3>
+                    <p>Adventure awaits in breathtaking locations worldwide!</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/price.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Best Price Guarantee</h3>
+                    <p>Enjoy the best rates for your travels!</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/customer-support2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Great Customer</h3>
+                    <p>We're here to assist you anytime!</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/calender-ss.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Super Fast Booking</h3>
+                    <p>Plan your getaway in minutes!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------section 3 html ends here----------->
+    <!---card slider section starts here------------->
+    <section class="sec-04">
+        <div class="app">
+            <div class="cardList">
+                <button class="cardList__btn btn btn--left">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-left"></use>
+                        </svg>
+                    </div>
+                </button>
+
+                <div class="cards__wrapper">
+                    <div class="card current--card">
+                        <div class="card__image">
+                            <img src="images/g1.jpeg" alt="image_not_available" />
+                        </div>
+                    </div>
+
+                    <div class="card next--card">
+                        <div class="card__image">
+                            <img src="images/g2.jpeg" alt="image_not_available" />
+                        </div>
+                    </div>
+
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g4.webp" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g5.jpg" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g6.jpg" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/darjeeling-toy-train.png" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g8.jpg" alt="image_not_available" />
+                        </div>
+                    </div>
+                </div>
+
+                <button class="cardList__btn btn btn--right">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-right"></use>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+
+            <div class="infoList">
+                <div class="info__wrapper">
+                    <div class="info current--info">
+                        <h1 class="text name">High-altitude desert </h1>
+                        <h4 class="text location">Leh Ladakh</h4>
+                        <p class="text description">The mountains are calling</p>
+                    </div>
+
+                    <div class="info next--info">
+                        <h1 class="text name">Beautiful Beaches</h1>
+                        <h4 class="text location">Andaman</h4>
+                        <p class="text description">Tropical Paradise Awaits</p>
+                    </div>
+
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="app__bg">
+                <div class="app__bg__image current--image">
+                    <img src="images/leh-ladakh.jpeg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image next--image">
+                    <img src="images/andaman.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+
+
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+    <!------section 5 starts here---------------->
+    <div class="container1">
+        <div class="card__container">
+            <article class="card__article">
+                <img src="images/g1.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">The Great Path</span>
+                    <h2 class="card__title">Kedarnath, Badrinarayan with Gangotri</h2>
+                    <a href="#additional-card-1" class="card__button">Read More</a>
+                </div>
+            </article>
+
+            <article class="card__article">
+                <img src="images/g2.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Poon Hill, Nepal</span>
+                    <h2 class="card__title">Starry Night</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+
+            <article class="card__article">
+                <img src="images/g3.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Path Of Peace</span>
+                    <h2 class="card__title">Simla,Manali with Amritsar</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+            <article class="card__article">
+                <img src="images/g4.webp" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Path Of Peace</span>
+                    <h2 class="card__title">Kashmir,Baishnudevi</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+            <article class="card__article">
+                <img src="images/g5.jpg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Path Of Peace</span>
+                    <h2 class="card__title">Nainital, Kaushani,Chukari,Munsiyari</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+            <article class="card__article">
+                <img src="images/g6.jpg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Path Of Peace</span>
+                    <h2 class="card__title">Nepal with Chitwan and Pokhra</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!------section 5 ends here---------------->
+    <!---------- section 8 starts here-------------->
+    <section class="sec-08">
+        <div class="sec-08left">
+            <img src="images/g5.jpg" alt="image_not_available">
+        </div>
+        <div class="sec-08right">
+            <h1>Why Choose Us?</h1>
+            <p>In a bustling city like Kolkata, where countless travel agencies vie for your attention, Chowdhury
+                Travels stands out as a beacon of warmth and familiarity. We believe that travel is not just about
+                destinations; it's about creating lasting memories with loved ones. Our dedicated team treats every
+                customer like family, ensuring that your journey feels personal and heartfelt. With a deep understanding
+                of Bengali culture and traditions, we infuse each trip with a sense of "soulmate-ness," connecting you
+                with the beauty of each place you visit. Whether you're exploring hidden gems in West Bengal or
+                embarking on grand adventures across India, Chowdhury Travels promises a unique blend of exceptional
+                service, tailored experiences, and a familial touch that transforms your travels into cherished stories.
+                Choose us for a journey that feels like home, wherever you roam!</p>
+        </div>
+
+    </section>
+    <!---------- section 8 ends here-------------->
+    <!--section 6 html starts here------------->
+    <section class="sec-06">
+        <div class="overlay"></div>
+        <div class="sec-06content">
+            <h1>Discount 10-30% Off</h1>
+            <p>
+                Chowdhury Travels is excited to announce an exclusive offer for all our valued customers! Enjoy an
+                incredible discount of 10% to 30% on every trip you book with us. Whether you’re planning a serene
+                getaway to the mountains, an adventurous expedition to the jungles, or a cultural tour of vibrant
+                cities, we believe everyone deserves a chance to explore the world at a more affordable price. This
+                limited-time promotion is our way of saying thank you for choosing Chowdhury Travels. Book your next
+                adventure now and take advantage of these amazing savings—your dream vacation is just a click away!</p>
+            <button class="btn1">See Promotion Tours</button>
+        </div>
+    </section>
+    <!--section 6 html ends here------------->
+    <!----------------i have to do the testimonial section later------>
+    <div class="container2">
+
+        <div class="contents-wraper">
+
+            <section class="testi-header">
+                <h1>Testimonials</h1>
+            </section>
+
+            <section class="testRow">
+
+                <div class="testItem active">
+                    <img src="images/boy3.jpeg">
+                    <h3>Sk Akbor</h3>
+                    <h4>Garden Reach, Kolkata</h4>
+                    <p>I would like to thanks team JAIS for the excellent work they have delivered for my 3BHK flat.
+                        Nicely planned and executed as per agreed terms. We strongly recommended them.</p>
+                </div>
+
+                <div class="testItem">
+                    <img src="images/boy2.jpeg">
+                    <h3>Chiranjit Maity</h3>
+                    <h4>Rashbihari, Kolkata</h4>
+                    <p>One of the most promising company i have ever seen, every staff of this company are very polite
+                        and skilled.</p>
+                </div>
+
+                <div class="testItem">
+                    <img src="images/boy1.webp">
+                    <h3>Pritam Sarkar</h3>
+                    <h4>Shobhabazar Sutanuti, Kolkata</h4>
+                    <p>I would like to thank Jais interio and team for the excellent work they have delivered for my
+                        kitchen. Nicely planned and executed as per agreed terms. I strongly recommend them.</p>
+                </div>
+
+                <div class="testItem">
+                    <img src="images/girl1.jpeg">
+                    <h3>Jiya Rahaman</h3>
+                    <h4>Barasat, North 24 Parganas,Kolkata</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="testItem">
+                    <img src="images/girl2.jpeg">
+                    <h3>Priyanka Biswas</h3>
+                    <h4>Barrackpore, North 24 Parganas</h4>
+                    <p>This is the best organization i ever seen. This is the best place to design your dream home...
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="indicators">
+                <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+                <div class="dot" attr='1' onclick="switchTest(this)"></div>
+                <div class="dot" attr='2' onclick="switchTest(this)"></div>
+                <div class="dot" attr='3' onclick="switchTest(this)"></div>
+                <div class="dot" attr='4' onclick="switchTest(this)"></div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-----section 7 html starts here----------->
+    <section class="sec-07">
+        <h1>Travel Articles/Read All Articles</h1>
+        <div class="sec-07boxes">
+            <img src="images/slide1.jpg" alt="image_not_available">
+            <img src="images/slide2.jpg" alt="image_not_available">
+            <img src="images/slide3.jpg" alt="image_not_available">
+            <img src="images/slide4.jpeg" alt="image_not_available">
+        </div>
+    </section>
+    <!-------section 7 html ends here----------->
+    <!--repeated section starts here------------>
+    <!-- <section class="sec-03">
+        <div class="sec-03boxes">
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/flight-t.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>500+ Destinations</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/price.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Best Price Guarantee</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/customer-support2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Great Customer</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/calender-ss.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Super Fast Booking</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--repeated section ends here------------>
+    <!---------------footer section html starts here----------------->
+    <footer>
+        <section class="footer-container">
+            <div class="footer-row">
+                <div class="footer-column">
+                    <h2><span><img src="images/chowdhury-logo.jpeg" alt="image_not_available"></span>Chowdhury Travels</h2>
+                    <p>
+                        At Chowdhury Travels in Girish Park, Kolkata, we specialize in arranging corporate, national, and international tours. Whether you need a seamless business trip or a memorable vacation, we're here to make your travel experience exceptional. Let's explore the world together!</p>
+                </div>
+                <div class="footer-column">
+                    <h2>Quick Links</h2>
+                    <div class="links">
+                      
+                                <a href="about.html">About Us</a>
+                                <a href="destination.html">Destinations</a>
+                                <a href="contact.html">Contact Us</a>
+                                <a href="blog.html">Blogs</a>
+
+                            
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h2>Office Address</h2>
+                    <h4>Office: <span>272/B, Chittaranjan Avenue, Kolkata- 700006</span></h4>
+                    <h4>Phone: <span>9831092098</span></h4>
+                    <h4>Nearest Location: <span>Girish Park Metro</span></h4>
+                    <h4>Opening Hours: <span>11 AM to 7 AM</span></h4>
+                    <h4>Approaved By: <span>LTC/LFC all Insurance & Bank and Other Organization</span></h4>
+                </div>
+                <div class="footer-column">
+                    <h2>Contact Us</h2>
+                    <h4><span>Email:</span> chowdhurytravels.com</h4>
+                    <h4><span>Phone:</span> 1234567891</h4>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=100054543756492&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Designed by <a  target="_blank" href="https://sarafworldwide.in/">Saraf Worldwide</a> || @Copyrights reserved 2024</p>
+            </div>
+        </section>
+    </footer>
+
+    <!---------------footer section html ends here----------------->
+
+    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <!---card slider section ends here------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script type="text/javascript">
+
+        // Access the testimonials
+        let testSlide = document.querySelectorAll('.testItem');
+        // Access the indicators
+        let dots = document.querySelectorAll('.dot');
+
+        var counter = 0;
+
+        // Add click event to the indicators
+        function switchTest(currentTest) {
+            currentTest.classList.add('active');
+            var testId = currentTest.getAttribute('attr');
+            if (testId > counter) {
+                testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+                counter = testId;
+                testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+            }
+            else if (testId == counter) { return; }
+            else {
+                testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+                counter = testId;
+                testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+            }
+            indicators();
+        }
+
+        // Add and remove active class from the indicators
+        function indicators() {
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(' active', '');
+            }
+            dots[counter].className += ' active';
+        }
+
+        // Code for auto sliding
+        function slideNext() {
+            testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+            if (counter >= testSlide.length - 1) {
+                counter = 0;
+            }
+            else {
+                counter++;
+            }
+            testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+            indicators();
+        }
+        function autoSliding() {
+            deleteInterval = setInterval(timer, 4000);
+            function timer() {
+                slideNext();
+                indicators();
+            }
+        }
+        autoSliding();
+
+        // Stop auto sliding when mouse is over the indicators
+        const container4 = document.querySelector('.indicators');
+        container4.addEventListener('mouseover', pause);
+        function pause() {
+            clearInterval(deleteInterval);
+        }
+
+        // Resume sliding when mouse is out of the indicators
+        container4.addEventListener('mouseout', autoSliding);
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

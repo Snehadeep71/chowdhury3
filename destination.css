@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*----------------------section 1 destination css starts here-------------*/
+.dsec-01{
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/Beige\ Minimal\ Aesthetic\ Photo\ Collage\ .png) center center/cover;
+    position: relative;
+    z-index: 1;
+}
+.dsec-01 .overlay {
+   
+    z-index: 2; /* Make sure overlay is above the background but below the text */
+}
+
+.dsec-01 h1 {
+    position: relative; /* Ensure it’s above the overlay */
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 3; /* Ensure the text is above the overlay */
+}
+/*----------------------section 1 destination css ends here-------------*/
+/*----------------------section 2 destination css starts here-------------*/
+.dsec-02{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    color: #000;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    background-color: #FFFDD0;
+}
+.dsec-02 h1{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+/*--------------------------------category css starts here----------------*/
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.category-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: rgb(218, 215, 215);
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-button:hover {
+    background-color: grey;
+    color: red;
+}
+
+/*--------------------------------category css ends here----------------*/
+.dsec-02boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    gap: 30px;
+    line-height: 1.6;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* transition: all  0.5s; */
+}
+.dsec-02box1{
+    /* display: flex; */
+    
+    border: 1px solid grey;
+    flex: 1 0 16.5%;
+    height: 100%;
+    height: 280px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.dsec-02box1:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all  0.5s;
+}
+.dsec-02box1left{
+   
+    width: 100%;
+    height: auto;
+   
+    
+}
+.dsec-02box1left img{
+    width: 100%;
+   height: 120px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   
+}
+.dsec-02box1right{
+    width: 100%;
+    height: auto;
+    /* background-color: antiquewhite; */
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.dsec-02box1right p{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+.dsec-02box1right h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.additional-card {
+    display: none; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+    margin-top: 10px; 
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+}
+.close-button {
+    cursor: pointer; 
+    background: none;
+    border: none;
+    font-size: 45px; 
+    float: right; 
+    position: absolute;
+    right: 50px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+   
+    
+}
+
+.additional-card p {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.additional-card span {
+    font-weight: bold;
+}
+.additional-card {
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #ccc; 
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    width: 100%; 
+    max-width: 80%; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #FFFDD0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+    height: 65%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.dheading{
+    display: flex;
+    top: 0;
+    
+
+}
+.dheading h2{
+    color: #FF4500;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+.dheading h2::before{
+    position: absolute;
+    content: '';
+    width: 120px;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #FF4500;
+    
+   
+}
+.dcontent{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    gap: 30px;
+}
+.initial {
+    color: #228B22;
+    text-align: center;
+}
+
+.dcontentbox{
+    
+    flex: 1 1 30%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+.dcontentbox img{
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.dcontentbox h4,.dcontentbox p{
+    width: 100%;
+    text-align: center;
+    
+   
+}
+.dcontentbox h4{
+    color:#FF4500;
+}
+.dcontentbox p{
+    color:#00BFFF;
+}
+.toggle-button{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+   
+}
+.toggle-button:hover{
+    background-color: antiquewhite;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.btn1{
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: #000;
+    width: 120px;
+    height: 30px;
+    
+}
+/*----------------------section 2 destination css ends here-------------*/
+/*----------------------section 2 destination responsive  css starts here-------------*/
+@media only screen and (min-width:200px) and (max-width:1336px){
+    .dsec-02{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .dsec-02boxes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .additional-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+       
+    }
+    .dheading{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+
+    }
+    .initial{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .dcontent{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .dcontentbox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .category-tabs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        
+    }
+    .category-button{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*----------------------section 2 destination responsive  css ends here-------------*/

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- *******  Link To CSS Style Sheet  ******* -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- *******  Font Awesome Icons Link  ******* -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!-- *******  Link To Goggle Fonts  *******  -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+	<title>Chowdhury-Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="logo"><img src="images/chowdhury-logo.jpeg" alt="image_not_available"><span>Chowdhury Travels</span></a>
+
+                <!-- Hamburger Menu Icon (for mobile) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <!-- Navbar Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="about.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                    <li><a href="destination.html"><i class="fa fa-plane"></i> Destinations</a></li>
+                    <li><a href="gallery.html"><i class="fa fa-images"></i> Gallery</a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <li><a href="blog.html"><i class="fa fa-pencil-alt"></i> Blog</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="csec-01">
+	<div class="ccontainer">
+		<main class="row">
+			
+			<!--  *******   Left Section (Column) Starts   *******  -->
+
+			<section class="col left">
+				
+				<!--  *******   Title Starts   *******  -->
+
+				<div class="contactTitle">
+					<h2>Get In Touch</h2>
+					<p>For inquiries or to plan your next adventure with Chowdhury Travels, please contact us</p>
+				</div>
+
+				<!--  *******   Title Ends   *******  -->
+
+				<!--  *******   Contact Info Starts   *******  -->
+
+				<div class="contactInfo">
+					
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-phone"></i>
+						</div>
+						<div class="details">
+							<span style="color: #FF4500;">Phone</span>
+							<span style="color: #00BFFF;">9831092098</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="details">
+							<span style="color: #FF4500;">Email</span>
+							<span style="color: #00BFFF;">ctt.kolkata@gmail.com</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="details">
+							<span style="color: #FF4500;">Location</span>
+							<span style="color: #00BFFF;">272/B, Chittaranjan Avenue, Kolkata-700006(Near Girish Park Metro)</span>
+                            <span style="color: #228B22;">9163623095</span>
+						</div>
+					</div>
+
+				</div>
+
+				<!--  *******   Contact Info Ends   *******  -->
+
+				<!--  *******   Social Media Starts   *******  -->
+
+				<div class="socialMedia">
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+				</div>
+
+				<!--  *******   Social Media Ends   *******  -->
+
+			</section>
+
+			<!--  *******   Left Section (Column) Ends   *******  -->
+
+			<!--  *******   Right Section (Column) Starts   *******  -->
+            <section class="col right">
+                <!--  *******   Form Starts   *******  -->
+            
+                <form class="messageForm" onsubmit="sendWhatsAppMessage(event)">
+                    <div class="inputGroup halfWidth">
+                        <input type="text" id="name" required="required">
+                        <label>Your Name</label>
+                    </div>
+            
+                    <div class="inputGroup halfWidth">
+                        <input type="email" id="email" required="required">
+                        <label>Email</label>
+                    </div>
+            
+                    <div class="inputGroup fullWidth">
+                        <input type="text" id="subject" required="required">
+                        <label>Subject</label>
+                    </div>
+            
+                    <div class="inputGroup fullWidth">
+                        <textarea id="message" required="required"></textarea>
+                        <label>Say Something</label>
+                    </div>
+            
+                    <div class="inputGroup fullWidth">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            
+                <!--  *******   Form Ends   *******  -->
+            </section>
+
+			<!--  *******   Right Section (Column) Ends   *******  -->
+
+		</main>
+	</div>
+</section>
+     <!---------------footer section html starts here----------------->
+     <footer>
+        <section class="footer-container">
+            <div class="footer-row">
+                <div class="footer-column">
+                    <h2><span><img src="images/chowdhury-logo.jpeg" alt="image_not_available"></span>Chowdhury Travels</h2>
+                    <p>
+                        At Chowdhury Travels in Girish Park, Kolkata, we specialize in arranging corporate, national, and international tours. Whether you need a seamless business trip or a memorable vacation, we're here to make your travel experience exceptional. Let's explore the world together!</p>
+                </div>
+                <div class="footer-column">
+                    <h2>Quick Links</h2>
+                    <div class="links">
+                      
+                                <a href="about.html">About Us</a>
+                                <a href="destination.html">Destinations</a>
+                                <a href="contact.html">Contact Us</a>
+                                <a href="blog.html">Blogs</a>
+
+                            
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h2>Office Address</h2>
+                    <h4>Office: <span>272/B, Chittaranjan Avenue, Kolkata- 700006</span></h4>
+                    <h4>Phone: <span>9831092098</span></h4>
+                    <h4>Nearest Location: <span>Girish Park Metro</span></h4>
+                    <h4>Opening Hours: <span>11 AM to 7 AM</span></h4>
+                    <h4>Approaved By: <span>LTC/LFC all Insurance & Bank and Other Organization</span></h4>
+                </div>
+                <div class="footer-column">
+                    <h2>Contact Us</h2>
+                    <h4><span>Email:</span> chowdhurytravels.com</h4>
+                    <h4><span>Phone:</span> 9831092098</h4>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=100054543756492&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Designed by <a  target="_blank" href="https://sarafworldwide.in/">Saraf Worldwide</a> || &copy; reserved 2024</p>
+            </div>
+        </section>
+    </footer>
+
+
+    <!---------------footer section html ends here----------------->
+    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
